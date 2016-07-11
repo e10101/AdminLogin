@@ -1,0 +1,37 @@
+{
+  "name": "admin-login",
+  "version": "0.0.1",
+  "description": "Login Module for Administrator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e10101/AdminLogin.git"
+  },
+  "keywords": [
+    "Express",
+    "PassportJS",
+    "Login"
+  ],
+  "author": "Yishi Guo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e10101/AdminLogin/issues"
+  },
+  "homepage": "https://github.com/e10101/AdminLogin#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": ">= 0.0.0",
+    "express": ">= 0.0.0",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.11.3",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "passport": ">= 0.0.0",
+    "passport-github2": ">= 0.0.0",
+    "router": "^1.1.3"
+  }
+}
