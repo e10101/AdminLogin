@@ -4,3 +4,4 @@ npm-debug.log
 tmp/
 temp/
 config.js
+ecosystem.json
